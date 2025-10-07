@@ -1,5 +1,7 @@
 const express = require('express');
+
 const {insertOneDrama, getAllDramas, insertManyDrama, getDramaById, updateDramaUsingPut, updateById, deleteById} = require('../controllers/drama-controllers');
+
 const router = express.Router();
 
 router.get('/',getAllDramas);
