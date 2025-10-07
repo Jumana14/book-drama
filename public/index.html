@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Books and Dramas Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Books and Dramas Tracker</h1>
+  <div id="container">
+    <section id="booksSection">
+      <h2>Books</h2>
+      <button id="loadBooksBtn">Load All Books</button>
+      <ul id="booksList"></ul>
+
+      <h3>Add Book</h3>
+      <form id="addBookForm">
+        <div class="form-group">
+          <label for="bookTitle">Title</label>
+          <input type="text" id="bookTitle" placeholder="Enter title" required />
+        </div>
+        <div class="form-group">
+          <label for="bookAuthor">Author</label>
+          <input type="text" id="bookAuthor" placeholder="Enter author" required />
+        </div>
+        <div class="form-group">
+          <label for="bookStartDate">Start Date</label>
+          <input type="date" id="bookStartDate" aria-label="book start date" />
+        </div>
+        <!-- End Date field removed from add form -->
+        <button type="submit">Add Book</button>
+      </form>
+    </section>
+
+    <section id="dramasSection">
+      <h2>Dramas</h2>
+      <button id="loadDramasBtn">Load All Dramas</button>
+      <ul id="dramasList"></ul>
+
+      <h3>Add Drama</h3>
+      <form id="addDramaForm">
+        <div class="form-group">
+          <label for="dramaName">Name</label>
+          <input type="text" id="dramaName" placeholder="Enter name" required />
+        </div>
+        <div class="form-group">
+          <label for="dramaStartDate">Start Date</label>
+          <input type="date" id="dramaStartDate" aria-label="drama start date" />
+        </div>
+        <!-- End Date field removed from add form -->
+        <button type="submit">Add Drama</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
