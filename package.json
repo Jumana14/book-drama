@@ -1,0 +1,25 @@
+{
+  "name": "book-drama",
+  "version": "1.0.0",
+  "description": "book-drama",
+  "main": "app.js",
+  "scripts": {
+    "test": "book and drama"
+  },
+  "repository": {
+    "type": "git",
+    "url": "book-drama"
+  },
+  "keywords": [
+    "book",
+    "and",
+    "drama"
+  ],
+  "author": "Jumana",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0"
+  }
+}
